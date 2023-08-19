@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "bb08cf16-b8ce-4141-b3b7-1318cc574873",
+		"name": "weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16341424"
+	},
+	"item": [
+		{
+			"name": "weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://route.showapi.com/9-2?showapi_appid=1468550&showapi_sign=d5e7569bf95d4a77a90988d4fbcd9d9f&area=丽江",
+					"protocol": "https",
+					"host": [
+						"route",
+						"showapi",
+						"com"
+					],
+					"path": [
+						"9-2"
+					],
+					"query": [
+						{
+							"key": "showapi_appid",
+							"value": "1468550"
+						},
+						{
+							"key": "showapi_sign",
+							"value": "d5e7569bf95d4a77a90988d4fbcd9d9f"
+						},
+						{
+							"key": "area",
+							"value": "丽江"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
